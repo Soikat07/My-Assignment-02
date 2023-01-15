@@ -136,3 +136,133 @@ border-left: 3px solid #FF900E;;
      font-size: 11px;
      line-height: 16px;
 }
+.button{
+  color: white;
+  background-color:#f09227;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  position: relative;
+ top:-60px ;
+ right:-650px;
+}
+/* ---------------
+Section-3 style
+------------------- */
+.up-div{
+  padding:30px 60% 50px 12% ;
+}
+.section-3-title{
+  font-weight: 700px;
+  font-size: 30px;
+  line-height: 53px;
+  color: #131313;
+}
+.section-3-description{
+  font-weight: 400px;
+  color: #727272;
+  font-size: 11px;
+  line-height: 16px;
+  
+}
+.section-3-container{
+  display: flex;
+  justify-content:center;
+ gap: 90px;
+}
+.section-3-item{
+  padding: 15px 20px;
+  text-align: center;
+border: 1px solid #FF900E;
+border-radius: 5px;
+transition: width 1s,height 1s,transform 1s;
+}
+.section-3-item > h4{
+  color: #424242;
+  font-weight: 600px;
+  font-size: 25px
+}
+.section-3-item > p{
+  color: #727272;
+  font-weight: 600px;
+font-size: 12px;
+}
+.section-3-item:hover{
+  transform:rotate(45deg);
+}
+/* ------------------
+Section-4 style
+--------------------- */
+.section-4{
+text-align: center;
+margin-top: 80px;
+}
+.section-4-div> h3{
+  font-weight: 700px;
+  font-size: 30px;
+  line-height: 53px;
+  color: #131313;
+}
+.section-4-div>p{
+  font-weight: 400px;
+  color: #727272;
+  font-size: 11px;
+  line-height: 16px;
+}
+.section-4-container{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  filter: grayscale(100%);
+}
+/*---------------
+ Bonus section
+ ---------------------- */
+ .bonus-section-div{
+  margin-top: 90px;
+ }
+ .bonus-section-title{
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+ }
+ .blogs{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 26px;
+  padding: 0 10%;
+}
+.blog{
+  display: flex;
+}
+.thumbnail img{
+  width: 300px;
+  height: 180px;
+}
+.blog-info{
+  margin-left: 10px;
+}
+.blog-title{
+font-weight: 500px;
+font-size: 16px;
+color: #000000cc;
+}
+.blog-info>p> a{
+text-decoration: none;
+font-weight: 400;
+font-size: 15px;
+color: #562EFF;
+}
+/*--------------
+ Footer style
+----------------- */
+Footer{
+margin: 60px 10% 50px 10%;
+color:#424242;
+background-color: #FFF4E7;
+font-size: 15px;
+text-align: center;
+border-radius: 5px;
+padding: 30px 20px 30px 20px;
+}
