@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+.primary-btn {
+  font-size: 10px;
+  color: white;
+  background-color: #ff900e;
+  font-family: 700px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  padding: 10px 15px;
+  border: none;
+}
+/* --------------
+Header style
+------------------ */
+.header {
+  background-color: rgba(255, 144, 14, 0.1);
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-title {
+  font-weight: 700px;
+  font-size: 2rem;
+  margin-top: 30px;
+}
+.lists {
+  margin-top: 30px;
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  font-weight: 500;
+  font-size: 1em;
+  color: #424242;
+}
+.banner-details {
+  text-align: center;
+  padding: 60px 25% 0 25%;
+}
+.banner-title {
+  font-size: 3rem;
+}
+.banner-description {
+  font-size: 14px;
+  color: #424242;
+}
+.banner-img {
+  width: 100%;
+  padding: 0 15%;
+  margin-bottom: 40px;
+}
+
+/* ------------
+Main style
+--------------- */
+/* section-1 */
+.section-1{
+     display: flex;
+     gap: 30px;
+     padding: 0 20%;
+}
+.section-images{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 10px;
+width: 150%;
+}
+.section-details{
+     width: 50%;
+}
+.section-1-title{
+     padding-top: 90px;
+color: #727272;
+font-weight: 700px;
+font-size: 30px;
+}
+.text-color{
+color:#131313;
+}
+.text-color-2{
+color: 
+#FF900E;
+}
+.section-1-description{
+     font-weight: 400px;
+     color: #727272;
+     font-size: 11px;
+     line-height: 26px;
+}
